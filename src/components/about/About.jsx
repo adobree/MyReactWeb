@@ -19,18 +19,18 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className='about_card'>
-            <FaAward className='about_icon'/>
+            <article className='about__card'>
+            <FaAward className='about__icon'/>
             <h5>Experience</h5>
             <small>3+ Years</small>
             </article>
-            <article className='about_card'>
-            <FiUsers className='about_icon'/>
+            <article className='about__card'>
+            <FiUsers className='about__icon'/>
             <h5>Clients</h5>
             <small>100+ Clients</small>
             </article>
-            <article className='about_card'>
-            <BsFolderCheck className='about_icon'/>
+            <article className='about__card'>
+            <BsFolderCheck className='about__icon'/>
             <h5>Projects</h5>
             <small>20+ Projects</small>
             </article>
