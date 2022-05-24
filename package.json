@@ -1,5 +1,6 @@
 {
-  "name": "web",
+  "name": "ReactWeb",
+  "homepage": "https://itexpress.hu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -32,7 +32,7 @@ const Contact = () => {
             <a href="https://wa.me/+36302054404" target="blank">Send a message</a>
           </article>
         </div>
-        <form action="contact.php" method="post">
+        <form action="contact.php" method="get">
           <input type="text" id='name' name='name' placeholder='Name' required />
           <input type="email" id='email' name="email" placeholder='Email' required />
           <textarea id='message' name="message"rows="7" placeholder='Your message' required></textarea>
