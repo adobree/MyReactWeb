@@ -8,6 +8,9 @@ const Contact = () => {
 
   return (
     <section id='contact'>
+
+      <script src="contact_form.js"></script>
+
       <h5>Get In Touch</h5>
       <h2>Contact</h2>
 
@@ -32,11 +35,12 @@ const Contact = () => {
             <a href="https://wa.me/+36302054404" target="blank">Send a message</a>
           </article>
         </div>
-        <form action="contact.php" method="get">
+        <form class="form" action="contact.php" method="post" id="phpcontactform">
           <input type="text" id='name' name='name' placeholder='Name' required />
           <input type="email" id='email' name="email" placeholder='Email' required />
           <textarea id='message' name="message"rows="7" placeholder='Your message' required></textarea>
           <button type="submit" className='btn btn-primary'>Send Message</button>
+          <span class="loading"></span> 
         </form>
       </div>
     </section>
